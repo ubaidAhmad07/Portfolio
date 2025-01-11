@@ -1,5 +1,5 @@
 {
-  "homepage" : "url",
+  "homepage" : "https://ubaidAhmad07.github.io/portfolio",
   "predeploy":"npm run build",
   "deploy":"gh-pages -d build",
   "name": "portfolio",
