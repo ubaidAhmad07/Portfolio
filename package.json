@@ -1,15 +1,14 @@
 {
   "homepage" : "https://ubaidAhmad07.github.io/portfolio",
-  "predeploy":"npm run build",
-  "deploy":"gh-pages -d build",
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
